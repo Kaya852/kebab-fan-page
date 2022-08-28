@@ -59,6 +59,7 @@
 
 .welcome .image {
     padding: 100px;
+    
 }
 
 .welcome .text .first {
@@ -99,6 +100,10 @@
     font-weight: 900;
     font-size: large;
     
+}
+
+.middle a img {
+    box-shadow: 1px 2px 3px rgba(0,0,0,.5);
 }
 
 .conclusion {
