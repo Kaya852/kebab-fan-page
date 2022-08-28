@@ -1,11 +1,15 @@
 * {
     font-family: 'Trebuchet MS', sans-serif;
+    
 }
+
+
 
 .container {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #ffffcc;
 }
 .header {
     display: flex;
@@ -80,5 +84,36 @@
     background-color: #ffffcc;
     margin: 15px;
     padding: 35px;
+}
+
+.middle a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.middle a p {
+    color: #ff6600;
+    font-weight: 900;
+    font-size: large;
+    
+}
+
+.conclusion {
+    margin: 15px;
+    background-color: #ffffcc;
+    padding: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.conclusion div {
+    font-size: large;
+}
+.conclusion div .conc{
+    font-weight: 900;
+    font-size: large;
 }
 
